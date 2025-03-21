@@ -1,6 +1,7 @@
 # Summary of Introduction to Algorithms Lecture 1
 
-## OverviewThe first lecture of the "Introduction to Algorithms" course is presented by Jason Ku, who introduces the course along with instructors
+## Overview
+The first lecture of the "Introduction to Algorithms" course is presented by Jason Ku, who introduces the course along with instructors
 Eric Demaine and Justin Solomon. The focus of the course is not just to develop algorithms for solving computational problems, but also to communicate,
 prove correctness, and argue efficiency of these solutions. The lecture covers fundamental concepts such as defining problems and algorithms, the importance
 of communication, methods of proving correctness (such as induction), and assessing the efficiency of these algorithms.
@@ -26,9 +27,10 @@ of communication, methods of proving correctness (such as induction), and assess
   ### Example: Birthday Problem Algorithm
   - Jason Ku explains a method to solve the birthday problem: detecting if any two students share a birthday.
   - The algorithm proposed involves interviewing students sequentially, maintaining a record of birthdays checked, and returning a match if found.
-  ### Proving Algorithm Correctness- Correctness of an algorithm can be established through rigorous checks, such as:
-  - Trying out various input combinations to validate outputs.
-  - Using **induction** for larger sets, establishing that if the algorithm holds for the first K inputs, it continues to hold as more inputs are included.
+  ### Proving Algorithm Correctness
+  - Correctness of an algorithm can be established through rigorous checks, such as:
+    - Trying out various input combinations to validate outputs.
+    - Using **induction** for larger sets, establishing that if the algorithm holds for the first K inputs, it continues to hold as more inputs are included.
   - The steps of an inductive proof involve:
     1. Establishing a base case.
     2. Formulating an inductive hypothesis.
